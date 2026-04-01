@@ -5,8 +5,8 @@ const AhmedHub = () => {
   const hubData = {
     name: "AHMED YOUNOUSSI",
     activity: "Actor",
-    email: "agencia@representacion.com", // PENDIENTE real
-    instagram: "https://instagram.com/", // PENDIENTE real
+    agencyUrl: "https://www.decara-actores.com/actores/ahmed-younoussi/",
+    instagram: "https://www.instagram.com/ahmed_younoussi/?hl=es",
     imdb: "https://imdb.com/", // PENDIENTE real
     videobook: "#", // PENDIENTE real
     profilePicture: "/ahmed_foto.png", // Retrato principal
@@ -37,7 +37,7 @@ const AhmedHub = () => {
           <img 
             src={hubData.profilePicture} 
             alt="Ahmed Younoussi" 
-            className="w-full h-full object-cover object-top opacity-90 saturate-[0.8] contrast-125 mix-blend-luminosity"
+            className="w-full h-full object-cover object-top opacity-80"
           />
           {/* Gradiente oscuro inferior para legibilidad */}
           <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-zinc-950 via-zinc-950/70 to-transparent"></div>
@@ -156,7 +156,7 @@ const AhmedHub = () => {
 
           {/* CONTACTO PROFESIONAL Y REDES */}
           <section className="space-y-3 pt-6 border-t border-zinc-900">
-            <a href={`mailto:${hubData.email}`} className="flex items-center justify-between p-4 bg-zinc-900 hover:bg-zinc-800 rounded-2xl transition-colors border border-zinc-800">
+            <a href={hubData.agencyUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-4 bg-zinc-900 hover:bg-zinc-800 rounded-2xl transition-colors border border-zinc-800">
               <div className="flex items-center gap-4">
                 <Mail className="w-5 h-5 text-zinc-400" />
                 <span className="font-bold text-zinc-200">Contactar Agencia</span>
