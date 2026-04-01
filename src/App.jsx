@@ -27,7 +27,7 @@ const AhmedHub = () => {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100 font-sans selection:bg-zinc-100 selection:text-zinc-900">
+    <div className="min-h-screen bg-zinc-950 text-zinc-100 font-inter selection:bg-zinc-100 selection:text-zinc-900">
       
       {/* Contenedor Principal Ajustado y Centrado */}
       <div className="w-full max-w-[480px] min-h-screen flex flex-col relative z-10 mx-auto bg-zinc-950 shadow-2xl">
@@ -37,16 +37,16 @@ const AhmedHub = () => {
           <img 
             src={hubData.profilePicture} 
             alt="Ahmed Younoussi" 
-            className="w-full h-full object-cover object-top opacity-80"
+            className="w-full h-full object-cover object-top opacity-100"
           />
-          {/* Gradiente oscuro inferior para legibilidad */}
-          <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-zinc-950 via-zinc-950/70 to-transparent"></div>
+          {/* Gradiente oscuro inferior (más suave y bajo) para legibilidad */}
+          <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-zinc-950 via-zinc-950/50 to-transparent"></div>
           
           <div className="absolute bottom-0 left-0 w-full p-8 flex flex-col items-start">
-            <h1 className="text-4xl sm:text-5xl font-black text-white uppercase tracking-tight leading-[0.9] mb-3">
+            <h1 className="text-4xl sm:text-5xl font-serif font-black text-white uppercase tracking-tight leading-[0.9] mb-3">
               Ahmed <br/>Younoussi
             </h1>
-            <p className="text-zinc-300 font-medium text-sm tracking-widest uppercase flex items-center gap-2">
+            <p className="text-zinc-300 font-inter font-medium text-sm tracking-widest uppercase flex items-center gap-2">
               <Award className="w-4 h-4 text-white" /> Nominado Premios Max 2025
             </p>
           </div>
@@ -66,7 +66,7 @@ const AhmedHub = () => {
 
           {/* FICHA TÉCNICA (RANGO Y HERRAMIENTAS) */}
           <section className="space-y-4">
-            <h2 className="text-xs font-black text-zinc-500 uppercase tracking-[0.3em] border-b border-zinc-800 pb-2">Arsenal Técnico</h2>
+            <h2 className="text-sm font-serif font-bold text-zinc-500 uppercase tracking-[0.2em] border-b border-zinc-800 pb-2">Arsenal Técnico</h2>
             
             <div className="grid grid-cols-1 gap-3">
               <div className="bg-zinc-900/50 p-4 rounded-2xl border border-zinc-800/50">
@@ -95,7 +95,7 @@ const AhmedHub = () => {
 
           {/* TRAYECTORIA DESTACADA */}
           <section className="space-y-4">
-            <h2 className="text-xs font-black text-zinc-500 uppercase tracking-[0.3em] border-b border-zinc-800 pb-2">Créditos Destacados</h2>
+            <h2 className="text-sm font-serif font-bold text-zinc-500 uppercase tracking-[0.2em] border-b border-zinc-800 pb-2">Créditos Destacados</h2>
             
             <div className="space-y-3">
               {/* TEATRO */}
@@ -138,7 +138,7 @@ const AhmedHub = () => {
 
           {/* INTENCIÓN ESTRATÉGICA: REGISTROS (PLACEHOLDERS DE DIRECCIÓN) */}
           <section className="space-y-4">
-            <h2 className="text-xs font-black text-zinc-500 uppercase tracking-[0.3em] border-b border-zinc-800 pb-2">Registros / Rango (Próximamente)</h2>
+            <h2 className="text-sm font-serif font-bold text-zinc-500 uppercase tracking-[0.2em] border-b border-zinc-800 pb-2">Registros / Rango (Próximamente)</h2>
             <div className="grid grid-cols-2 gap-3">
               <div className="aspect-[3/4] bg-zinc-900 rounded-2xl border border-zinc-800 flex items-end p-4 relative overflow-hidden group">
                 <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 to-transparent opacity-80"></div>
