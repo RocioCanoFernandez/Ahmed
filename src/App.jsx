@@ -6,7 +6,7 @@ const AhmedHub = () => {
     name: "AHMED YOUNOUSSI",
     agencyUrl: "https://www.decara-actores.com/actores/ahmed-younoussi/",
     instagram: "https://www.instagram.com/ahmed_younoussi/?hl=es",
-    imdb: "https://imdb.com/", // PENDIENTE real
+    imdb: "https://www.imdb.com/es-es/name/nm4059291/", // Enlace oficial
     videobook: "#", // PENDIENTE real
     profilePicture: "/ahmed_foto.png", // Retrato principal
     mainHeadline: "Actor. Nominado a Mejor Actor – Premios Max 2025."
